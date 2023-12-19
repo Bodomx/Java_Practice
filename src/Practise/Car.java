@@ -15,6 +15,11 @@ public String Start(){
 
 };
 public int ShiftControl(){
+	int ShiftControl=1;
+	System.out.println(ShiftControl);
+	return ShiftControl;
+};
+public int Park(){
 	int Park=1;
 	int Rear=2;
 	int Drive=3;
@@ -22,6 +27,27 @@ public int ShiftControl(){
 	return Park;
 };
 public static int Park(int input){
+	int Park=1;
+	int Rear=2;
+	int Drive=3;
+	System.out.println(Park);
+	return Park;
+};
+public int Rear(int input){
+	int Park=1;
+	int Rear=2;
+	int Drive=3;
+	System.out.println(Rear);
+	return Rear;
+};
+public int Drive(int input){
+	int Park=1;
+	int Rear=2;
+	int Drive=3;
+	System.out.println(Drive);
+	return Drive;
+};
+public void Park(){
 	
 };
 public void Rear(){};
