@@ -47,15 +47,7 @@ public int Drive(int input){
 	System.out.println(Drive);
 	return Drive;
 };
-public void Park(){
-	
-};
-public void Rear(){};
-public void Drive(){};
-public void Accelarate(){};
-public static void Break(){};
-
-
+//public static void Break(){};
 	public static void main(String[] args) {
 	Car BMW= new Car();
 		System.out.print("Hello, World");
