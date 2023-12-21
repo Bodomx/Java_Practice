@@ -1,0 +1,23 @@
+Class Declaration
+public class Car: This line defines a new class named Car.
+Class Attributes
+public String Brand="BMW";: Declares a public string attribute Brand for the Car class and initializes it with the value "BMW".
+public static int Wheels=4;: Declares a public static integer attribute Wheels for all instances of the Car class, initialized to 4.
+private float EngineCapacity=4.6f;: Declares a private floating-point attribute EngineCapacity, initialized to 4.6. Being private, it can only be accessed within the Car class.
+public double FuelCapacity=2.66;: Declares a public double attribute FuelCapacity, initialized to 2.66.
+public int limit=-2140000000;: Declares a public integer limit, initialized to -2140000000.
+public long limit2=-900l;: Declares a public long integer limit2, initialized to -900.
+Methods
+public String Start() {...}: A public method that prints and returns the string "Press the 'start' button".
+public int ShiftControl() {...}: A public method that prints and returns the integer 1 (representing a shift control status).
+public int Park() {...}: A public method that prints and returns the integer 1 (representing a parking status).
+public static int Park(int input) {...}: A public static overloaded version of the Park method, taking an integer input, printing, and returning 1.
+public int Rear(int input) {...}: A public method that prints and returns the integer 2 (representing a rear gear status).
+public int Drive(int input) {...}: A public method that prints and returns the integer 3 (representing a drive gear status).
+public static void Break(int input) {...}: A public static method that prints the integer 1 (representing a brake action).
+Main Method
+public static void main(String[] args) {...}: The main method of the class, where the execution begins.
+Creates an instance of the Car class named BMW.
+Prints several lines describing the car, including its brand, wheels, fuel capacity, engine capacity, and speed limit.
+Modifies the EngineCapacity and Wheels attributes of the BMW object and prints them.
+Calls the Start and Park methods on the BMW object.
