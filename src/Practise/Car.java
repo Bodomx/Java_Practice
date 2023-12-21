@@ -68,6 +68,9 @@ public int Drive(int input){
 		System.out.println(Wheels);
 		BMW.Start();
 		BMW.Park();
+		BMW.Rear(10); // Using the Rear method with a parameter.
+		BMW.Drive(20); // Using the Drive method with a parameter.
+		Car.Break(3); // Using the static Break method with a parameter.
 		
 	}
 
