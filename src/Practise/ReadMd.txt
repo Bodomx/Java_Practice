@@ -21,3 +21,64 @@ Creates an instance of the Car class named BMW.
 Prints several lines describing the car, including its brand, wheels, fuel capacity, engine capacity, and speed limit.
 Modifies the EngineCapacity and Wheels attributes of the BMW object and prints them.
 Calls the Start and Park methods on the BMW object.
+
+=====================================================================================================================
+
+// Defines the package name. Packages are used to organize related classes.
+
+// Declares a public class named 'car_If_else'.
+
+// Declaring class attributes (properties of the car)
+// A private string variable 'brand', set to "BMW".
+// A private static integer 'wheels', set to 4. Static means it's shared among all instances of the class.
+// A private float 'engineCapacity', set to 4.6.
+// A private double 'fuelCapacity', set to 2.66.
+// A private integer 'speed', initially set to 0.
+// A private variable 'currentGear' of type Gear (an enum defined below).
+// A private boolean 'engineOn', initially set to false indicating the engine is off.
+
+// Enum for gear states
+// An enumeration representing gear states.
+
+// Constructor of the class
+// Sets the default gear to PARK when an object of the class is created.
+
+// Method to start the engine of the car
+// Checks if the engine is off
+// Starts the engine
+// Prints to the console
+// Prints if the engine is already on
+
+// Method to stop the engine of the car
+// Checks if the engine is on
+// Stops the engine
+// Resets speed to 0
+// Sets gear to PARK
+// Prints to the console
+// Prints if the engine is already off
+
+// Method to change gears of the car
+// Checks if the engine is on
+// Changes the current gear to the specified gear
+// Prints the new gear
+// Prints if the engine is off
+
+// Method to accelerate the car
+// Checks if the engine is on and the gear is in DRIVE
+// Increases the speed
+// Prints the current speed
+// Prints if unable to accelerate
+
+// Method to apply brakes to the car
+// Checks if the car is moving
+// Reduces the speed, ensuring it doesn't go below 0
+// Prints the current speed
+// Prints if the car is already stopped
+
+// The main method - the entry point of the program
+// Creates an instance of 'car_If_else'
+// Calls the startEngine method
+// Changes the gear to DRIVE
+// Accelerates the car by 20 km/h
+// Applies brakes to reduce speed by 10 km/h
+// Stops the engine
