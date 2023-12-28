@@ -1,6 +1,6 @@
 package Practise;
 
-public class Car {
+public class car_If_else {
     private String brand = "BMW";
     private static int wheels = 4;
     private float engineCapacity = 4.6f;
@@ -15,7 +15,7 @@ public class Car {
     }
 
     // Constructor
-    public Car() {
+    public car_If_else() {
         this.currentGear = Gear.PARK; // Default gear is PARK
     }
 
@@ -72,7 +72,7 @@ public class Car {
     }
 
     public static void main(String[] args) {
-        Car bmw = new Car();
+    	car_If_else bmw = new car_If_else();
         bmw.startEngine();
         bmw.changeGear(Gear.DRIVE);
         bmw.accelerate(20);
